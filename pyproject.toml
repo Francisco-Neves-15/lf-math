@@ -1,0 +1,6 @@
+[project]
+name = "lfmath"
+version = "0.1.0"
+description = "Simple math helpers"
+authors = [{name="Francisco-Neves-15"}]
+requires-python = ">=3.8"
