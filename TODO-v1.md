@@ -2,10 +2,11 @@
 
 ## Basics / Core
 
-- root (raiz n-ésima)
-- sqrt
-- power
-- abs
+- V | root (raiz n-ésima)
+- V | sqrt
+- V | sqrt newton
+- V | power
+- V | abs
 - factorial
 - percentage
 - average
