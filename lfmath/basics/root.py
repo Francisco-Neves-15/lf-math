@@ -2,7 +2,7 @@ import math
 import abs
 
 # Root using: num ^ ( 1 / rad )
-def root(x, rad):
+def root(x: int | float, rad: int):
 
   if not isinstance(x, (int, float)):
     raise TypeError("x must be numeric")
@@ -31,7 +31,7 @@ def root(x, rad):
   return x ** (1/rad)
 
 # Newtown formula to square root
-def sqrt_newton(x, epsilon=1e-10, max_iter=1000):
+def sqrt_newton(x: int | float, epsilon=1e-10, max_iter=1000):
 
   if not isinstance(x, (int, float)):
     raise TypeError("x must be numeric")
